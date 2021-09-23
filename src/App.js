@@ -14,7 +14,7 @@ export default class App extends React.Component {
         return(
             <>
             <h1>
-                HELLO {this.state.name}
+                HELLO    hi  {this.state.name}
             </h1>
             <button onClick={()=>{this.upset()}}>update</button>
             </>
